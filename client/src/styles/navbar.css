@@ -1,0 +1,22 @@
+.navbar {
+  position: relative;
+  width: 55vw;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 13vw;
+  font-weight: 500;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  border-bottom: 1px solid black;
+}

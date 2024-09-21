@@ -8,8 +8,11 @@
     "client": "npm start --prefix client"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
     "pg": "^8.5.1"
   },
   "devDependencies": {

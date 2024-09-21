@@ -1,0 +1,246 @@
+.list-root {
+  min-height: 100vh;
+}
+
+.document-root {
+  width: 250mm; /* A4 width */
+  height: 270mm; /* A4 height */
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px; /* Optional: Adds padding inside the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.01); /* Optional: Adds a subtle shadow for a paper-like effect */
+  margin: 0 auto; /* Centers the container horizontally */
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+  margin-top: 20px;
+  /* background-color: lightcoral; */
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+}
+
+.info-left {
+  /* background-color: lightblue; */
+  width: 50%;
+}
+
+.name,
+.address,
+.phone,
+.YMM,
+.vin,
+.license,
+.mil,
+.color,
+.tech {
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.name {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.address {
+  height: 40%;
+}
+
+.phone {
+  height: 30%;
+}
+
+.info-right {
+  width: 50%;
+}
+
+.info-right-top {
+  height: 50%;
+}
+
+.YMM {
+  height: 50%;
+}
+
+.vin {
+  height: 50%;
+}
+
+.info-right-bottom {
+  height: 50%;
+}
+
+.license-mil {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.license {
+  width: 50%;
+}
+
+.color-tech {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.color {
+  width: 50%;
+}
+
+.mil {
+  width: 50%;
+}
+
+.tech {
+  width: 50%;
+}
+
+.work-container {
+  margin-top: 20px;
+  /* background-color: lightgray; */
+  border: 2px solid #000;
+  height: 60%;
+  width: 100%;
+}
+
+.work-top {
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+}
+
+.work-top-1 {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.work-top-2 {
+  width: 13.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.work-top-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 13.5%;
+  border: 1px solid #000;
+}
+
+.work-top-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 3%;
+  border: 1px solid #000;
+}
+
+.work-mid {
+  display: flex;
+  flex-direction: row;
+  height: 10.55%;
+}
+
+.work-bot {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+}
+
+.total-prices-container {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  margin-top: 20px;
+}
+
+.work-bot-1 {
+  width: 20%;
+  /* border: 1px solid #000; */
+  border-right: 2px solid #000;
+  padding: 5px;
+}
+
+.work-bot-2 {
+  width: 28%;
+  padding: 5px;
+}
+
+/* .Btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0px 20px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition-duration: 0.3s;
+}
+
+.svg {
+  width: 13px;
+  position: absolute;
+  right: 0;
+  margin-right: 14px;
+  fill: white;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover {
+  color: transparent;
+  width: auto; 
+} */
+
+.delete-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+/* .Btn:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.Btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 0px white;
+} */
