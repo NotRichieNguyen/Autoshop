@@ -1,1 +1,1 @@
- A WIP project for an auto shop business to help store customer records online instead of on physical documents.
+A full-stack web application built with PostgreSQL, Express, React, and Node (PERN stack) to help auto shop owners manage customer records.
